@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notification Icon component applies DOT variant styles 1`] = `
+.emotion-0 {
+  width: 1rem;
+}
+
+<img
+  alt="notification-bell-icon"
+  class="notification-icon-image emotion-0"
+  data-testid="dot-notification-bell-icon"
+  src="notification-dot.svg"
+/>
+`;
+
+exports[`Notification Icon component applies DOT_FILL variant styles 1`] = `
+.emotion-0 {
+  width: 1rem;
+}
+
+<img
+  alt="notification-bell-icon"
+  class="notification-icon-image emotion-0"
+  data-testid="dotFill-notification-bell-icon"
+  src="notification-dot-fill.svg"
+/>
+`;
+
+exports[`Notification Icon component applies FILL variant styles 1`] = `
+.emotion-0 {
+  width: 1rem;
+}
+
+<img
+  alt="notification-bell-icon"
+  class="notification-icon-image emotion-0"
+  data-testid="fill-notification-bell-icon"
+  src="notification-fill.svg"
+/>
+`;
+
+exports[`Notification Icon component applies LARGE size styles 1`] = `
+.emotion-0 {
+  width: 2rem;
+}
+
+<img
+  alt="notification-bell-icon"
+  class="notification-icon-image emotion-0"
+  data-testid="default-notification-bell-icon"
+  src="notification.svg"
+/>
+`;
+
+exports[`Notification Icon component applies MEDIUM size styles 1`] = `
+.emotion-0 {
+  width: 1.5rem;
+}
+
+<img
+  alt="notification-bell-icon"
+  class="notification-icon-image emotion-0"
+  data-testid="default-notification-bell-icon"
+  src="notification.svg"
+/>
+`;
+
+exports[`Notification Icon component applies SMALL size styles 1`] = `
+.emotion-0 {
+  width: 1rem;
+}
+
+<img
+  alt="notification-bell-icon"
+  class="notification-icon-image emotion-0"
+  data-testid="default-notification-bell-icon"
+  src="notification.svg"
+/>
+`;
+
+exports[`Notification Icon component applies default styles 1`] = `
+.emotion-0 {
+  width: 1rem;
+}
+
+<img
+  alt="notification-bell-icon"
+  class="notification-icon-image emotion-0"
+  data-testid="default-notification-bell-icon"
+  src="notification.svg"
+/>
+`;
+
+exports[`Notification Icon component applies filter styles 1`] = `
+.emotion-0 {
+  width: 1rem;
+  -webkit-filter: invert(18%) sepia(82%) saturate(6823%) hue-rotate(353deg) brightness(100%) contrast(115%);
+  filter: invert(18%) sepia(82%) saturate(6823%) hue-rotate(353deg) brightness(100%) contrast(115%);
+}
+
+<img
+  alt="notification-bell-icon"
+  class="notification-icon-image emotion-0"
+  data-testid="default-notification-bell-icon"
+  src="notification.svg"
+/>
+`;

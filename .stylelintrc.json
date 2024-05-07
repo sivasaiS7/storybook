@@ -1,0 +1,38 @@
+{
+  "extends": [
+    "stylelint-config-standard"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "**/*.{ts,tsx}"
+      ],
+      "customSyntax": "postcss-jsx",
+      "rules": {
+        "alpha-value-notation": "number",
+        "color-hex-length": "long",
+        "value-keyword-case": null,
+        "unit-disallowed-list": [
+          "px",
+          {
+            "ignoreProperties": {
+              "px": [
+                "/^border/",
+                "outline",
+                "box-shadow",
+                "filter",
+                "background-position",
+                "/^text-decoration/",
+                "transform",
+                "top",
+                "left",
+                "right",
+                "bottom"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
